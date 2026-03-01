@@ -104,3 +104,23 @@ sup, sub {
 sub {
   top: 0.4em;
 }
+
+@media (max-width: 700px) {
+  body {
+    font-size: 16px;
+  }
+  #menu {
+    float: none;
+    width: 90%;
+    margin: 20px auto 10px;
+    text-align: left;
+  }
+  #left {
+    display: none;
+  }
+  #content {
+    float: none;
+    width: 90%;
+    margin: 0 auto 40px;
+  }
+}
